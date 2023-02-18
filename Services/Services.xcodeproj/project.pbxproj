@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB337DCE29A0F7E500D8DEAC /* ServicesListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DCD29A0F7E500D8DEAC /* ServicesListFactory.swift */; };
+		CB337DD429A0F89A00D8DEAC /* ServicesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DD329A0F89A00D8DEAC /* ServicesListViewController.swift */; };
+		CB337DD629A0F8A800D8DEAC /* ServicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DD529A0F8A800D8DEAC /* ServicesListView.swift */; };
+		CB337DD829A0FD7100D8DEAC /* ServicesListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DD729A0FD7100D8DEAC /* ServicesListInteractor.swift */; };
+		CB337DDA29A0FE7D00D8DEAC /* ServicesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DD929A0FE7D00D8DEAC /* ServicesListPresenter.swift */; };
+		CB337DDC29A0FFBA00D8DEAC /* ServicesListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DDB29A0FFBA00D8DEAC /* ServicesListRouter.swift */; };
+		CB337DDE29A10D6800D8DEAC /* ServiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DDD29A10D6800D8DEAC /* ServiceDetail.swift */; };
+		CB337DE029A10D8200D8DEAC /* ServicesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DDF29A10D8200D8DEAC /* ServicesResponse.swift */; };
+		CB337DE229A1109A00D8DEAC /* ServicesListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DE129A1109A00D8DEAC /* ServicesListProvider.swift */; };
+		CB337DE529A1120B00D8DEAC /* ServicesListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DE429A1120B00D8DEAC /* ServicesListService.swift */; };
+		CB337DE729A1140700D8DEAC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DE629A1140700D8DEAC /* NetworkError.swift */; };
+		CB337DE929A1152E00D8DEAC /* DefaultDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DE829A1152E00D8DEAC /* DefaultDataStore.swift */; };
+		CB337DEB29A1176F00D8DEAC /* AnyNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DEA29A1176F00D8DEAC /* AnyNetworkService.swift */; };
+		CB337DED29A1199C00D8DEAC /* ServicesListDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337DEC29A1199C00D8DEAC /* ServicesListDataFlow.swift */; };
+		CB337F5D29A127F500D8DEAC /* ServicesListTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337F5C29A127F500D8DEAC /* ServicesListTableManager.swift */; };
+		CB337F6029A12BEB00D8DEAC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CB337F5F29A12BEB00D8DEAC /* Kingfisher */; };
+		CB337F6229A12E0700D8DEAC /* ServicesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB337F6129A12E0700D8DEAC /* ServicesListCell.swift */; };
 		CB370A7329A0ED910005D4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB370A7229A0ED910005D4C1 /* AppDelegate.swift */; };
 		CB370A7529A0ED910005D4C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB370A7429A0ED910005D4C1 /* SceneDelegate.swift */; };
-		CB370A7729A0ED910005D4C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB370A7629A0ED910005D4C1 /* ViewController.swift */; };
 		CB370A7C29A0ED930005D4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB370A7B29A0ED930005D4C1 /* Assets.xcassets */; };
 		CB370A7F29A0ED930005D4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB370A7D29A0ED930005D4C1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB337DCD29A0F7E500D8DEAC /* ServicesListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListFactory.swift; sourceTree = "<group>"; };
+		CB337DD329A0F89A00D8DEAC /* ServicesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListViewController.swift; sourceTree = "<group>"; };
+		CB337DD529A0F8A800D8DEAC /* ServicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListView.swift; sourceTree = "<group>"; };
+		CB337DD729A0FD7100D8DEAC /* ServicesListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListInteractor.swift; sourceTree = "<group>"; };
+		CB337DD929A0FE7D00D8DEAC /* ServicesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListPresenter.swift; sourceTree = "<group>"; };
+		CB337DDB29A0FFBA00D8DEAC /* ServicesListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListRouter.swift; sourceTree = "<group>"; };
+		CB337DDD29A10D6800D8DEAC /* ServiceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetail.swift; sourceTree = "<group>"; };
+		CB337DDF29A10D8200D8DEAC /* ServicesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesResponse.swift; sourceTree = "<group>"; };
+		CB337DE129A1109A00D8DEAC /* ServicesListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListProvider.swift; sourceTree = "<group>"; };
+		CB337DE429A1120B00D8DEAC /* ServicesListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListService.swift; sourceTree = "<group>"; };
+		CB337DE629A1140700D8DEAC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CB337DE829A1152E00D8DEAC /* DefaultDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDataStore.swift; sourceTree = "<group>"; };
+		CB337DEA29A1176F00D8DEAC /* AnyNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyNetworkService.swift; sourceTree = "<group>"; };
+		CB337DEC29A1199C00D8DEAC /* ServicesListDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListDataFlow.swift; sourceTree = "<group>"; };
+		CB337F5C29A127F500D8DEAC /* ServicesListTableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListTableManager.swift; sourceTree = "<group>"; };
+		CB337F6129A12E0700D8DEAC /* ServicesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListCell.swift; sourceTree = "<group>"; };
 		CB370A6F29A0ED910005D4C1 /* Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Services.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB370A7229A0ED910005D4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB370A7429A0ED910005D4C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB370A7629A0ED910005D4C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB370A7B29A0ED930005D4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB370A7E29A0ED930005D4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB370A8029A0ED930005D4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,12 +60,103 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB337F6029A12BEB00D8DEAC /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB337DC929A0F71100D8DEAC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CB370A7229A0ED910005D4C1 /* AppDelegate.swift */,
+				CB370A7429A0ED910005D4C1 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CB337DCA29A0F73000D8DEAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB370A7B29A0ED930005D4C1 /* Assets.xcassets */,
+				CB370A7D29A0ED930005D4C1 /* LaunchScreen.storyboard */,
+				CB370A8029A0ED930005D4C1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB337DCB29A0F75400D8DEAC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CB337DCC29A0F7BD00D8DEAC /* ServicesList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CB337DCC29A0F7BD00D8DEAC /* ServicesList */ = {
+			isa = PBXGroup;
+			children = (
+				CB337DCF29A0F83100D8DEAC /* View */,
+				CB337DD029A0F84600D8DEAC /* Interactor */,
+				CB337DD129A0F85100D8DEAC /* Presenter */,
+				CB337DE329A110AE00D8DEAC /* Provider */,
+				CB337DD229A0F86900D8DEAC /* Models */,
+				CB337DDB29A0FFBA00D8DEAC /* ServicesListRouter.swift */,
+				CB337DCD29A0F7E500D8DEAC /* ServicesListFactory.swift */,
+				CB337DE829A1152E00D8DEAC /* DefaultDataStore.swift */,
+				CB337DEC29A1199C00D8DEAC /* ServicesListDataFlow.swift */,
+			);
+			path = ServicesList;
+			sourceTree = "<group>";
+		};
+		CB337DCF29A0F83100D8DEAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB337F6129A12E0700D8DEAC /* ServicesListCell.swift */,
+				CB337F5C29A127F500D8DEAC /* ServicesListTableManager.swift */,
+				CB337DD529A0F8A800D8DEAC /* ServicesListView.swift */,
+				CB337DD329A0F89A00D8DEAC /* ServicesListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB337DD029A0F84600D8DEAC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CB337DD729A0FD7100D8DEAC /* ServicesListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CB337DD129A0F85100D8DEAC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CB337DD929A0FE7D00D8DEAC /* ServicesListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CB337DD229A0F86900D8DEAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB337DE629A1140700D8DEAC /* NetworkError.swift */,
+				CB337DDD29A10D6800D8DEAC /* ServiceDetail.swift */,
+				CB337DDF29A10D8200D8DEAC /* ServicesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB337DE329A110AE00D8DEAC /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				CB337DEA29A1176F00D8DEAC /* AnyNetworkService.swift */,
+				CB337DE129A1109A00D8DEAC /* ServicesListProvider.swift */,
+				CB337DE429A1120B00D8DEAC /* ServicesListService.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
 		CB370A6629A0ED910005D4C1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +176,9 @@
 		CB370A7129A0ED910005D4C1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				CB370A7229A0ED910005D4C1 /* AppDelegate.swift */,
-				CB370A7429A0ED910005D4C1 /* SceneDelegate.swift */,
-				CB370A7629A0ED910005D4C1 /* ViewController.swift */,
-				CB370A7B29A0ED930005D4C1 /* Assets.xcassets */,
-				CB370A7D29A0ED930005D4C1 /* LaunchScreen.storyboard */,
-				CB370A8029A0ED930005D4C1 /* Info.plist */,
+				CB337DC929A0F71100D8DEAC /* App */,
+				CB337DCA29A0F73000D8DEAC /* Resources */,
+				CB337DCB29A0F75400D8DEAC /* Scenes */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -80,6 +199,9 @@
 			dependencies = (
 			);
 			name = Services;
+			packageProductDependencies = (
+				CB337F5F29A12BEB00D8DEAC /* Kingfisher */,
+			);
 			productName = Services;
 			productReference = CB370A6F29A0ED910005D4C1 /* Services.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +230,9 @@
 				Base,
 			);
 			mainGroup = CB370A6629A0ED910005D4C1;
+			packageReferences = (
+				CB337F5E29A12BEB00D8DEAC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = CB370A7029A0ED910005D4C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,8 +259,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB370A7729A0ED910005D4C1 /* ViewController.swift in Sources */,
+				CB337DEB29A1176F00D8DEAC /* AnyNetworkService.swift in Sources */,
+				CB337DE229A1109A00D8DEAC /* ServicesListProvider.swift in Sources */,
+				CB337DD629A0F8A800D8DEAC /* ServicesListView.swift in Sources */,
+				CB337DD429A0F89A00D8DEAC /* ServicesListViewController.swift in Sources */,
+				CB337DCE29A0F7E500D8DEAC /* ServicesListFactory.swift in Sources */,
 				CB370A7329A0ED910005D4C1 /* AppDelegate.swift in Sources */,
+				CB337DDC29A0FFBA00D8DEAC /* ServicesListRouter.swift in Sources */,
+				CB337DED29A1199C00D8DEAC /* ServicesListDataFlow.swift in Sources */,
+				CB337DDE29A10D6800D8DEAC /* ServiceDetail.swift in Sources */,
+				CB337DDA29A0FE7D00D8DEAC /* ServicesListPresenter.swift in Sources */,
+				CB337DD829A0FD7100D8DEAC /* ServicesListInteractor.swift in Sources */,
+				CB337DE529A1120B00D8DEAC /* ServicesListService.swift in Sources */,
+				CB337DE729A1140700D8DEAC /* NetworkError.swift in Sources */,
+				CB337F6229A12E0700D8DEAC /* ServicesListCell.swift in Sources */,
+				CB337DE929A1152E00D8DEAC /* DefaultDataStore.swift in Sources */,
+				CB337DE029A10D8200D8DEAC /* ServicesResponse.swift in Sources */,
+				CB337F5D29A127F500D8DEAC /* ServicesListTableManager.swift in Sources */,
 				CB370A7529A0ED910005D4C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +417,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B9LDY7DJT3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Services/Info.plist;
+				INFOPLIST_FILE = Services/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Сервисы VK";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -309,7 +449,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B9LDY7DJT3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Services/Info.plist;
+				INFOPLIST_FILE = Services/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Сервисы VK";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -354,6 +494,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB337F5E29A12BEB00D8DEAC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB337F5F29A12BEB00D8DEAC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB337F5E29A12BEB00D8DEAC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CB370A6729A0ED910005D4C1 /* Project object */;
 }
